@@ -1,0 +1,19 @@
+{
+  "name": "email-service",
+  "version": "1.0.0",
+  "main": "src/EmailService.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/EmailService.js",  
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.4.2"
+  }
+}
